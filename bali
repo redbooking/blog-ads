@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang='id'>
+  <head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>Responsive Banner</title>
+    <link href='https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap' rel='stylesheet'>
+    <style>
+      .banner-container {
+        background-color: #ff4d4d;
+        color: white;
+        text-align: center;
+        padding: 40px;
+        font-family: 'Poppins', sans-serif;
+      }
+
+      .banner-container h5 {
+        margin: 0;
+        padding-bottom: 20px;
+        font-size: 2em;
+        font-weight: 600;
+      }
+
+      .banner-container p {
+        margin: 0;
+        padding-bottom: 20px;
+        font-size: 1em;
+        font-weight: 400;
+      }
+
+      .banner-button {
+        background-color: #ffcc00;
+        color: black;
+        border: none;
+        padding: 10px 20px;
+        text-transform: uppercase;
+        font-weight: 600;
+        cursor: pointer;
+        text-decoration: none;
+        display: inline-block;
+      }
+
+      .banner-container button {
+        padding: 10px 20px;
+      }
+
+      .banner-container a {
+        color: black;
+        text-decoration: none;
+      }
+
+      @media (min-aspect-ratio: 4/3) {
+        .banner-container {
+          padding: 3% 5%;
+        }
+      }
+
+      @media (max-width: 600px) {
+        .banner-container {
+          padding: 10% 5%;
+        }
+
+        .banner-container h5 {
+          font-size: 1.5em;
+        }
+
+        .banner-container p {
+          font-size: 0.8em;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class='banner-container'>
+      <h5>Ayo, Check Hotel Murah di Bali, Sekarang!</h5>
+      <p>Temukan hotel murah di Bali dengan mudah melalui RedDoorz. Pesan sekarang dan rancang liburan impian Anda di pulau surga ini!</p>
+      <a href='https://reddoorz.onelink.me/swZf/omb6bpaq' target='_blank' class='banner-button'>Cek Penginapan di Bali</a>
+    </div>
+  </body>
+</html>
